@@ -10,9 +10,10 @@
     'description': """
 
 """,
-    'depends': ['sale'],
+    'depends': ['sale','purchase'],
     'data': [
         'views/sale_views.xml',
+        'views/purchase_views.xml',
     ],
     'installable': True,
     'auto_install': False,

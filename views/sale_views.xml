@@ -10,7 +10,7 @@
                     <field name="numero_movimientos"/>
                     <field name="origen"/>
                     <field name="destino"/>
-                    <field name="custodio"/>
+                    <!-- <field name="custodio"/> -->
                     <field name="numero_contenedor"/>
                     <field name="bl"/>
                     <field name="hora_fecha_carga"/>
