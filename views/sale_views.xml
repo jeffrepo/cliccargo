@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="geducar_view_order_form" model="ir.ui.view">
+            <field name="name">geducar.sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <field name="commitment_date" position="after">
+                    <field name="numero_movimientos"/>
+                    <field name="origen"/>
+                    <field name="destino"/>
+                    <field name="custodio"/>
+                    <field name="numero_contenedor"/>
+                    <field name="hora_fecha_carga"/>
+                    <field name="hora_fecha_salida"/>
+                    <field name="hora_fecha_entrega"/>
+                </field>
+            </field>
+        </record>
+</odoo>
