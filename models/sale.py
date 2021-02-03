@@ -12,3 +12,4 @@ class SaleOrder(models.Model):
     hora_fecha_carga = fields.Datetime('Hora y fecha de carga')
     hora_fecha_salida = fields.Datetime('Hora y fecha de salida')
     hora_fecha_entrega = fields.Datetime('Hora y fecha de entrega')
+    bl = fields.Char('BL')
