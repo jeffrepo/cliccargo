@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="cliccargo_reporte_factura"
+            string="Factura CLICCARGO"
+            model="account.move"
+            report_type="qweb-pdf"
+            file="cliccargo.reporte_factura"
+            name="cliccargo.reporte_factura"
+        />
+
+    </data>
+</odoo>
