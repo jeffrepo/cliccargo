@@ -50,7 +50,7 @@
                                               <span t-field="l.name"/>
                                           </td>
                                           <td >
-                                              <span t-field="l.price_total"/>
+                                              <span t-esc="'{0:,.2f}'.format(l.price_total)"/>
                                           </td>
                                       </tr>
                                   </tbody>
@@ -62,7 +62,7 @@
                           </div>
 
                           <div style="font-size: 100%; position: absolute; top: 15cm; left: 25.0cm">
-                              <span t-esc="o.amount_total" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                              <span t-esc="o.amount_total"/>
                           </div>
 
 
